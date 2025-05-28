@@ -6,7 +6,7 @@ import os
 # Environment variables
 BOX_TOKEN = os.getenv("BOX_TOKEN")
 SENSOR_ID = os.getenv("SENSOR_ID")
-RAD_SENSOR_ID = os.getenv("")
+RAD_SENSOR_ID = os.getenv("RAD_SENSOR_ID")
 INTERVAL = int(os.getenv("INTERVAL", "30"))  # seconds between sends
 
 API_URL = f"https://api.opensensemap.org/boxes/{BOX_TOKEN}/data"

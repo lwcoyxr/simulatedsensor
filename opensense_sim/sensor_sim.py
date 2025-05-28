@@ -24,7 +24,7 @@ def send_data():
         {
             "sensor": SENSOR_ID,
             "value": value
-        }
+        },
         {
             "sensor": RAD_SENSOR_ID,
             "value": ms_value

@@ -1,8 +1,8 @@
-FROM python:3.13-slim:alpine
+FROM python:3.13-alpine
 
 WORKDIR /app
 
-COPY sensor_sim.py .
+COPY opensense_sim/ .
 
 RUN pip install requests
 
